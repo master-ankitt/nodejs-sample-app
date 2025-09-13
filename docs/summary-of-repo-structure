@@ -1,0 +1,22 @@
+nodejs-sample-app/
+│
+├── app.js
+├── package.json
+├── package-lock.json               # Contains exact versions of Node.js dependencies
+├── Dockerfile                      # Dockerfile to build the Node.js app container
+├── Jenkinsfile                     # Jenkins pipeline configuration for CI/CD
+├── README.md                       # Main README with project overview
+├── logoswsyatt.png                 # Project logo
+├── .gitignore                      # Git ignore file for node_modules, env, etc.
+│
+├── deployment-proof/               # Folder containing deployment evidence
+│   ├── app-running.png             # Screenshot of the running application
+│   ├── jenkins-pipeline.png        # Screenshot of Jenkins pipeline stages
+│   └── public-url.txt              # Optional file containing deployed app URL
+│
+├── docs/                           # Documentation folder
+│   ├── Github-webhook.png          # Screenshot showing GitHub webhook setup
+│   ├── architecture-diagram.png    # Architecture diagram of CI/CD pipeline
+│   └── summary-of-repo-structure.txt  # Summary of the repository structure
+│
+└── WRITEME.md                      # Markdown file explaining repo structure
