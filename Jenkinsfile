@@ -9,7 +9,7 @@ pipeline {
 
         // 🔹 EC2 deployment details
         EC2_USER       = "ubuntu"
-        EC2_HOST       = "65.1.167.181"
+        EC2_HOST       = "43.204.22.68"
         EC2_SSH_KEY    = "ec2-ssh-key"       // Jenkins SSH credential ID
         APP_PORT       = "3000"
     }
